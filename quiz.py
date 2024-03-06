@@ -88,7 +88,7 @@ def main():
             print("musisz podac liczbe!")
     
     if not (1 <= liczba_pytan_do_wyboru <= 10):
-        print("Podano nieprawidłową liczbę pytań. Quiz zacznie się z domyśl ną liczbą pytań (5).")
+        print("Podano nieprawidłową liczbę pytań. Quiz zacznie się z domyślną liczbą pytań (5).")
         liczba_pytan_do_wyboru = 5  
     
     pytania = wczytaj_pytania(nazwa_pliku)
